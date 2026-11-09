@@ -31,9 +31,9 @@ Security assessment of a PHP-based recruitment application, focusing on informat
 
 **Outcome:** Identified and chained application vulnerabilities to obtain administrative access.
 
-[Read the technical write-up](https://chatgpt.com/c/tryhackme/recruit/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/recruit/README.md)
 
-#### [Support — Web Application Penetration Testing](https://chatgpt.com/c/tryhackme/support/README.md)
+#### [Support — Web Application Penetration Testing](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/support/README.md)
 
 Assessment of a corporate support application, examining authentication mechanisms, authorization controls, information exposure, and server-side command execution.
 
@@ -53,11 +53,11 @@ Assessment of a corporate support application, examining authentication mechanis
 
 **Outcome:** Chained multiple weaknesses to obtain administrative access and demonstrate command execution.
 
-[Read the technical write-up](https://chatgpt.com/c/tryhackme/support/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/support/README.md)
 
 ### Linux Privilege Escalation
 
-#### [Linux — Recon Pipeline](https://chatgpt.com/c/tryhackme/privilege-escalation/Linux/README.md)
+#### [Linux — Recon Pipeline](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/privilege-escalation/Linux/README.md)
 
 Multi-stage privilege escalation assessment involving insecure Linux automation, file permissions, service execution, and sudo configurations.
 
@@ -79,11 +79,11 @@ Multi-stage privilege escalation assessment involving insecure Linux automation,
 
 **Outcome:** Successfully escalated from unauthenticated FTP access to a root shell by chaining insecure automation and privilege boundaries.
 
-[Read the technical write-up](https://chatgpt.com/c/tryhackme/privilege-escalation/Linux/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/privilege-escalation/Linux/README.md)
 
 ### Windows Privilege Escalation
 
-#### [Windows — Service and Access Control Misconfigurations](https://chatgpt.com/c/tryhackme/privilege-escalation/Windows/README.md)
+#### [Windows — Service and Access Control Misconfigurations](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/privilege-escalation/Windows/README.md)
 
 Windows privilege escalation assessment focused on exposed credentials, insecure service configurations, and insufficient file permission controls.
 
@@ -107,7 +107,7 @@ Windows privilege escalation assessment focused on exposed credentials, insecure
 
 **Outcome:** Progressively escalated through multiple Windows security contexts and obtained local administrative access.
 
-[Read the technical write-up](https://chatgpt.com/c/tryhackme/privilege-escalation/Windows/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/privilege-escalation/Windows/README.md)
 
 
 ## Technical Competencies
