@@ -12,7 +12,7 @@ The goal is to build and demonstrate practical security assessment skills throug
 
 ### Web Application Security
 
-#### [Recruit — Web Application Penetration Testing](http://tryhackme/recruit/README.md)
+#### [Recruit — Web Application Penetration Testing](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/recruit/README.md)
 
 Security assessment of a PHP-based recruitment application, focusing on information disclosure, database security, and access control weaknesses.
 
@@ -24,15 +24,15 @@ Security assessment of a PHP-based recruitment application, focusing on informat
 
 - PHP source code analysis and credential discovery.
 
-- UNION-based SQL Injection and database enumeration through `information\\\\\\\_schema`.
+- UNION-based SQL Injection and database enumeration through `information\\\\\\\\\\\\\\\_schema`.
 
 - Credential extraction and administrative access.
 
 **Outcome:** Identified and chained application vulnerabilities to obtain administrative access.
 
-[Read the technical write-up](http://tryhackme/recruit/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/recruit/README.md)
 
-#### [Support — Web Application Penetration Testing](http://tryhackme/support/README.md)
+#### [Support — Web Application Penetration Testing](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/support/README.md)
 
 Assessment of a corporate support application, examining authentication mechanisms, authorization controls, information exposure, and server-side command execution.
 
@@ -48,21 +48,21 @@ Assessment of a corporate support application, examining authentication mechanis
 
 - Insecure Direct Object Reference (IDOR) in a user API.
 
-- PHP source code analysis and OS Command Injection through `shell\\\\\\\_exec()`.
+- PHP source code analysis and OS Command Injection through `shell\\\\\\\\\\\\\\\_exec()`.
 
 **Outcome:** Chained multiple weaknesses to obtain administrative access and demonstrate command execution.
 
-[Read the technical write-up](http://tryhackme/support/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/support/README.md)
 
 ### Linux Privilege Escalation
 
-#### [Linux — Recon Pipeline](http://tryhackme/privilege-escalation/Linux/README.md)
+#### [Linux — Recon Pipeline](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/privilege-escalation/Linux/README.md)
 
 Multi-stage privilege escalation assessment involving insecure Linux automation, file permissions, service execution, and sudo configurations.
 
 **Attack path:**
 
-`Anonymous FTP → recon\\\\\\\_user → dev\\\\\\\_user → monitor\\\\\\\_user → ops\\\\\\\_user → root`
+`Anonymous FTP → recon\\\\\\\\\\\\\\\_user → dev\\\\\\\\\\\\\\\_user → monitor\\\\\\\\\\\\\\\_user → ops\\\\\\\\\\\\\\\_user → root`
 
 **Key findings and techniques:**
 
@@ -78,11 +78,11 @@ Multi-stage privilege escalation assessment involving insecure Linux automation,
 
 **Outcome:** Successfully escalated from unauthenticated FTP access to a root shell by chaining insecure automation and privilege boundaries.
 
-[Read the technical write-up](http://tryhackme/privilege-escalation/Linux/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/privilege-escalation/Linux/README.md)
 
 ### Windows Privilege Escalation
 
-#### [Windows — Service and Access Control Misconfigurations](http://tryhackme/privilege-escalation/Windows/README.md)
+#### [Windows — Service and Access Control Misconfigurations](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/privilege-escalation/Windows/README.md)
 
 Windows privilege escalation assessment focused on exposed credentials, insecure service configurations, and insufficient file permission controls.
 
@@ -106,7 +106,7 @@ Windows privilege escalation assessment focused on exposed credentials, insecure
 
 **Outcome:** Progressively escalated through multiple Windows security contexts and obtained local administrative access.
 
-[Read the technical write-up](http://tryhackme/privilege-escalation/Windows/README.md)
+[Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tree/main/tryhackme/privilege-escalation/Windows/README.md)
 
 ## Technical Competencies
 
@@ -158,43 +158,43 @@ The emphasis is on understanding **why a vulnerability exists, how it can be exp
 ## Repository Structure
 
 ```
-\\\`cybersecurity/\\\`    
-    
-\\\`│\\\`    
-    
-\\\`├── README.md\\\`    
-    
-\\\`│\\\`    
-    
-\\\`└── tryhackme/\\\`    
-    
-\\\`    │\\\`    
-    
-\\\`    ├── recruit/\\\`    
-    
-\\\`    │   └── README.md\\\`    
-    
-\\\`    │\\\`    
-    
-\\\`    ├── support/\\\`    
-    
-\\\`    │   └── README.md\\\`    
-    
-\\\`    │\\\`    
-    
-\\\`    └── privilege-escalation/\\\`    
-    
-\\\`        │\\\`    
-    
-\\\`        ├── Linux/\\\`    
-    
-\\\`        │   └── README.md\\\`    
-    
-\\\`        │\\\`    
-    
-\\\`        └── Windows/\\\`    
-    
-\\\`            └── README.md\\\`
+\\\\\\\`cybersecurity/\\\\\\\`      
+      
+\\\\\\\`│\\\\\\\`      
+      
+\\\\\\\`├── README.md\\\\\\\`      
+      
+\\\\\\\`│\\\\\\\`      
+      
+\\\\\\\`└── tryhackme/\\\\\\\`      
+      
+\\\\\\\`    │\\\\\\\`      
+      
+\\\\\\\`    ├── recruit/\\\\\\\`      
+      
+\\\\\\\`    │   └── README.md\\\\\\\`      
+      
+\\\\\\\`    │\\\\\\\`      
+      
+\\\\\\\`    ├── support/\\\\\\\`      
+      
+\\\\\\\`    │   └── README.md\\\\\\\`      
+      
+\\\\\\\`    │\\\\\\\`      
+      
+\\\\\\\`    └── privilege-escalation/\\\\\\\`      
+      
+\\\\\\\`        │\\\\\\\`      
+      
+\\\\\\\`        ├── Linux/\\\\\\\`      
+      
+\\\\\\\`        │   └── README.md\\\\\\\`      
+      
+\\\\\\\`        │\\\\\\\`      
+      
+\\\\\\\`        └── Windows/\\\\\\\`      
+      
+\\\\\\\`            └── README.md\\\\\\\`
 ```
 
 Each challenge has its own technical write-up, allowing the repository to expand while keeping the main portfolio concise and easy to navigate.
