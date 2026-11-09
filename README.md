@@ -8,12 +8,11 @@ The projects are based primarily on [TryHackMe](https://tryhackme.com/) laborato
 
 The goal is to build and demonstrate practical security assessment skills through structured technical investigations, reproducible findings, and clear documentation.
 
-
 ## Featured Security Assessments
 
 ### Web Application Security
 
-#### [Recruit — Web Application Penetration Testing](https://chatgpt.com/c/tryhackme/recruit/README.md)
+#### [Recruit — Web Application Penetration Testing](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/recruit/README.md)
 
 Security assessment of a PHP-based recruitment application, focusing on information disclosure, database security, and access control weaknesses.
 
@@ -25,7 +24,7 @@ Security assessment of a PHP-based recruitment application, focusing on informat
 
 - PHP source code analysis and credential discovery.
 
-- UNION-based SQL Injection and database enumeration through `information\_schema`.
+- UNION-based SQL Injection and database enumeration through `information\\\_schema`.
 
 - Credential extraction and administrative access.
 
@@ -49,7 +48,7 @@ Assessment of a corporate support application, examining authentication mechanis
 
 - Insecure Direct Object Reference (IDOR) in a user API.
 
-- PHP source code analysis and OS Command Injection through `shell\_exec()`.
+- PHP source code analysis and OS Command Injection through `shell\\\_exec()`.
 
 **Outcome:** Chained multiple weaknesses to obtain administrative access and demonstrate command execution.
 
@@ -63,7 +62,7 @@ Multi-stage privilege escalation assessment involving insecure Linux automation,
 
 **Attack path:**
 
-`Anonymous FTP → recon\_user → dev\_user → monitor\_user → ops\_user → root`
+`Anonymous FTP → recon\\\_user → dev\\\_user → monitor\\\_user → ops\\\_user → root`
 
 **Key findings and techniques:**
 
@@ -109,7 +108,6 @@ Windows privilege escalation assessment focused on exposed credentials, insecure
 
 [Read the technical write-up](https://github.com/rebecabritosec/cybersecurity-writeups/tryhackme/privilege-escalation/Windows/README.md)
 
-
 ## Technical Competencies
 
 The documented assessments demonstrate practical experience with the following security concepts.
@@ -122,6 +120,7 @@ The documented assessments demonstrate practical experience with the following s
 | **Linux Security** | File permissions, group membership analysis, automated tasks, PATH Hijacking, systemd, sudo misconfigurations |
 | **Windows Security** | SMB enumeration, AutoLogon analysis, NTFS permissions, Windows services, Service Binary Hijacking |
 | **Security Investigation** | Source code review, process inspection, exploit chain analysis, technical documentation |
+
 
 ## Tools & Technologies
 
@@ -137,8 +136,8 @@ Selected tools used throughout the documented laboratories and security exercise
 | Windows Enumeration | WinPEAS, PowerShell, Windows CLI |
 | Operating Systems & Scripting | Linux, Windows, Bash, PowerShell |
 
-Tools are used according to the assessment objective, with emphasis on understanding the underlying vulnerability and validating the results rather than relying exclusively on automated findings.
 
+Tools are used according to the assessment objective, with emphasis on understanding the underlying vulnerability and validating the results rather than relying exclusively on automated findings.
 
 ## Assessment & Documentation Approach
 
@@ -156,51 +155,49 @@ The write-ups follow a structured approach to documenting security investigation
 
 The emphasis is on understanding **why a vulnerability exists, how it can be exploited, and what security boundary is affected**.
 
-
 ## Repository Structure
 
 ```
-`cybersecurity/`
-
-`│`
-
-`├── README.md`
-
-`│`
-
-`└── tryhackme/`
-
-`    │`
-
-`    ├── recruit/`
-
-`    │   └── README.md`
-
-`    │`
-
-`    ├── support/`
-
-`    │   └── README.md`
-
-`    │`
-
-`    └── privilege-escalation/`
-
-`        │`
-
-`        ├── Linux/`
-
-`        │   └── README.md`
-
-`        │`
-
-`        └── Windows/`
-
-`            └── README.md`
+\`cybersecurity/\`  
+  
+\`│\`  
+  
+\`├── README.md\`  
+  
+\`│\`  
+  
+\`└── tryhackme/\`  
+  
+\`    │\`  
+  
+\`    ├── recruit/\`  
+  
+\`    │   └── README.md\`  
+  
+\`    │\`  
+  
+\`    ├── support/\`  
+  
+\`    │   └── README.md\`  
+  
+\`    │\`  
+  
+\`    └── privilege-escalation/\`  
+  
+\`        │\`  
+  
+\`        ├── Linux/\`  
+  
+\`        │   └── README.md\`  
+  
+\`        │\`  
+  
+\`        └── Windows/\`  
+  
+\`            └── README.md\`
 ```
 
 Each challenge has its own technical write-up, allowing the repository to expand while keeping the main portfolio concise and easy to navigate.
-
 
 ## Current Learning Focus
 
@@ -218,7 +215,6 @@ My ongoing technical development focuses on strengthening practical penetration 
 
 The objective is to continue developing a methodical approach to security assessments, connecting practical exploitation techniques with their underlying technical causes and defensive implications.
 
-
 ## Ethical & Authorized Testing
 
 All exploitation activities documented in this repository were performed in **authorized educational environments**, primarily TryHackMe laboratories and CTF challenges.
@@ -226,7 +222,6 @@ All exploitation activities documented in this repository were performed in **au
 The content is intended for educational purposes, technical skill development, and security research.
 
 No unauthorized systems or third-party infrastructure are targeted as part of these documented exercises.
-
 
 *This repository is maintained as a technical portfolio of hands-on cybersecurity learning, practical investigations, and documented security assessments.*
 
